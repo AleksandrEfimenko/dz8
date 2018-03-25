@@ -1,0 +1,220 @@
+body{
+	font-family: Arial;
+	margin: auto;
+	width: 1200px;
+	background-image: url(../img/bg_img.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-origin: content-box;
+	position: relative;
+}
+/*блок футер*/
+header{
+	margin: 0px auto;
+	position:absolute;
+}
+img{
+	padding: 5px;
+}
+.main-menu{
+	display: block;
+	width: 1200px;
+	height: 44px;
+	background-image: url(../img/header_fon.jpg);
+	background-repeat: repeat-y;
+	background-position: top;
+	background-origin: content-box;
+}
+.main-menu-navigation{
+	width: 37%;
+	display: block;
+	margin-left: 350px;
+	float: left;
+}
+.main-menu-navigation_item{
+	display: block;
+	width: 80px;
+	text-align: center;
+	padding: 10px 0px;
+    text-decoration: none;
+    line-height: 22px;
+	color:#60b5ed;
+	float: left;
+}
+.main-menu-navigation_item:hover{
+    background-color: #4eabda;
+    color: white;
+}
+.main-menu-navigation_item:first-child{
+	width: 120px;
+}
+.main-menu-navigation_item:last-child{
+	border-right: solid 1px #60b5ed;
+}
+.main-menu-navigation_2{
+	width: 30%;
+	display: block;
+	float:right;
+}
+.main-menu-nav_item_2{
+	display: block;
+	width: 130px;
+	text-align: center;
+	padding: 10px 0px;
+	text-decoration: none;
+	line-height: 22px;
+	color: white;
+	float: left;
+}
+.main-menu-nav_item_2:last-child{
+	background: linear-gradient(to top, #2e7ac4, #4daada);
+    width: 200px;
+}
+/*блок мэин описание*/
+.main-block{
+    width: 560px;
+    height: 625px;
+    margin: auto;
+    position: absolute;
+    top: 250px;
+    left: 320px;
+}
+.main-block-name{
+    background-color: rgba(0,0,0,0.5);
+    width: 560px;
+    height: 70px;
+    /*border-bottom: hidden 5px;
+    border-color: transparent;*/
+    text-align: center;
+}
+.main-block-name_item{
+    color: white;
+    font-size: 40px;
+    padding: 15px;
+}
+.main-form{
+    width: 560px;
+    height: 600px;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 73px;
+}
+.first_button{
+	display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-left: 140px;
+    margin-top: 50px;
+    line-height: 2.5;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    background: linear-gradient(to top, #2f4678, #2e7ac4);
+    border-radius: 10px 0px 0px 10px;
+}
+.second_button{
+	display: inline-block;
+    width: 240px;
+    height: 40px;
+    margin-top: 50px;
+    margin-right: 130px;
+    line-height: 2.5;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    background: linear-gradient(to top, #2f4678, #2e7ac4);
+    border-radius: 0px 10px 10px 0px;
+}
+legend{
+	text-align: center;
+	color: lightgrey;
+	margin-top: 40px;
+}
+fieldset{
+	margin: 40px 40px 0px 40px;
+	margin-left: 140px;
+	border-top: solid 1px lightgrey;
+	width: 280px;	
+}
+#first_field{
+	margin-top: 30px;
+	width: 280px;
+	height: 30px;
+	background-color: black;
+	color:white;
+}
+#second_field{
+	margin-top: 20px;
+	width: 280px;
+	height: 30px;
+	background-color: black;
+    color:white;
+}
+#three_field{
+	margin-top: 20px;
+	width: 280px;
+	height: 30px;
+	background-color: black;
+    color:white;
+}
+#four_field{
+	margin-top: 20px;
+	width: 280px;
+	height: 30px;
+	background-color: black;
+    color:white;
+}
+#fife_field{
+	margin-top: 20px;
+	width: 280px;
+	height: 30px;
+	background-color: black;
+	color:white;
+}
+#check{
+	margin-top: 30px;
+}
+#button_send{
+	width: 180px;
+	height: 40px;	
+	margin-top: 20px;
+	margin-left: 50px;
+	color:white;
+	font-size: 20px;
+	background: linear-gradient(to top, #2f7bc5, #67c6e6);
+	border-radius: 5px;
+}
+label{
+	color:white;
+}
+p{  margin-top: 20px;
+	color: white;
+	text-align: center;
+	font-size: 12px;
+}
+input:focus{
+	color: #1b5288;
+	box-shadow: 0px 0px 5px 5px #4aa5d7;
+}
+#first_field:focus{
+	background-color: #2f4678;
+}
+#second_field:focus{
+	background-color: #2f4678;
+}
+#three_field:focus{
+	background-color: #2f4678;
+}
+#four_field:focus{
+	background-color: #2f4678;
+}
+#fife_field:focus{
+	background-color: #2f4678;
+}
+.clearfix, 
+.clearfix:before,
+.clearfix:after{
+	content: '';
+	display: block;
+    clear: both;
+}
